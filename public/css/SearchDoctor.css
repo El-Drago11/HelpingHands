@@ -1,0 +1,67 @@
+
+/* SearchDoctor.css */
+
+ul li{
+    list-style-type: none;
+}
+.list-inline-item{
+    margin: 20px;
+    margin-left: 56px;
+}
+.list-inline-item a:hover{
+    text-decoration: none;
+}
+.card{
+    display: inline-block;
+    border-radius: 20px;
+}
+#DoctorNavbar ul li{
+    float: left;
+}
+#DoctorNavbar{
+    background-color: black;
+}
+.card-title{
+    line-height: 40px;
+}
+#links ul li{
+    /* display: none; */
+    text-decoration: none;
+    float: left;
+    margin-left: 12px;
+    justify-content: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.list-inline-item{
+    margin: 20px;
+    margin-left: 56px;
+}
+.list-inline-item a:hover{
+    text-decoration: none;
+}

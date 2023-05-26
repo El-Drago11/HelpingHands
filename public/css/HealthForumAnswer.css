@@ -1,0 +1,10 @@
+
+/* HealthForumAnswer.css*/
+
+.list-inline-item{
+    margin: 20px;
+    margin-left: 56px;
+}
+.list-inline-item a:hover{
+    text-decoration: none;
+}

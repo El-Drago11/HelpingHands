@@ -1,0 +1,60 @@
+/*HealthForum.css  */
+
+ul li {
+    list-style-type: none;
+}
+
+.list-inline-item {
+    margin: 20px;
+    margin-left: 56px;
+}
+
+.list-inline-item a:hover {
+    text-decoration: none;
+}
+
+#HealingMind {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    background-image: url('../images/About1.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#Records-img {
+    background-image: url('../images/About-prov.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#Appointment {
+    background-image: url('../images/About3\ -\ Appoint.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

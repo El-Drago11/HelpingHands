@@ -1,0 +1,100 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.list-inline-item{
+    margin: 20px;
+    margin-left: 56px;
+}
+.list-inline-item a:hover{
+    text-decoration: none;
+}
+
+/* Footer */
+.footer{
+    margin-top: 100px;
+    bottom:0;
+    left:0;
+}
+  .footer2{
+    margin-top: 20px;
+    padding-left: 100px;
+    background:url(footer-bg.png);
+    background-repeat: no-repeat;
+   background-size: 1200px 700px;;
+    margin-bottom: 20px;
+  
+  }
+  .newsletter{
+    border: none;
+  border-bottom: solid 2px #393939;
+  cursor:progress;
+  color:green;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+  height: 30px;
+  font-size: 15px ;
+  }
+  .last_line{
+  text-align: center;
+  color: #f9f9f9;
+  }
+
+  h5{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .card{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100%;
+  }
+  .card-body #BuyKnow{
+    visibility: hidden;
+    display: none;
+  }
+  .card-body:hover #BuyKnow{
+    display: block;
+    visibility: visible;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: red;
+    font-weight: bolder;
+  }

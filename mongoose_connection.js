@@ -1,0 +1,5 @@
+const mongoose = require('mongoose')
+const user = require('./userdata')
+mongoose.connect('mongodb://127.0.0.1/expo')
+    .then(() => { console.log('Mongoose connection successful') })
+    .catch((err) => { console.log(err) })

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/NewRegistrattion.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: rgb(90, 160, 221);">
+    <!-- Navbar -->
+    <div class="container-fluid bg-light">
+        <div class="navbar-expand">
+            <div class="main">
+                <ul class="list-inline">
+                    <img src="images/Logo.jpg" width="100px" height="50px">
+                    <li class="list-inline-item">
+                        <a href="index.html">Main</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="dropdown">
+                            <a href="#">Health Forum ^</a>
+                            <div class="dropdown-content">
+                                <ul style="list-style: none;">
+                                    <li><a href="HealthForum.html">Health Forum</a></li>
+                                    <li><a href="HealthForumAnswer.html" class="text-truncate">Health Forum Answer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="Shopping.html">Pharmacy & Store</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="HowItWork.html">How it works</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="Appointment.html">Appointment</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="AboutUs.html">About us</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="Shopping.html"><span class="material-symbols-outlined" style="font-size: 30px; display:flex;">
+                                    add_shopping_cart
+                                </span></a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="login.html"><span class="material-symbols-outlined">
+                                    person
+                                </span><a href="login.html">login</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="NewRegistrattion.html" class="btn btn-primary">
+                                Join us
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class=" container .offset-md-2 col-md-8 text-center bg-light" style=" box-shadow: 10px 10px 10px 10px silver;  padding: 2%;">
+        <div class="container mb-md-3 bg-light">
+            <div class="row" style="border-bottom: 2px solid;">
+                <div class="col-md-3">
+                    <img src="images/Logo.jpg" class="img-thumbnail float-md-start" alt="..." width="70%">
+                </div>
+                <div class="offset-md-5 col-md-4 float-end">
+                    <h1>Helper Helping Hand</h1>
+                    <p>
+                        123 Maple Street, Houston, TX, 77002 example@example.com www.example.com (123) 1234567
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h1>New Patient Registrattion</h1>
+        <h4 class="my-md-5"><strong> Fill the Form</strong></h4>
+        <form class="form" action="register" method="post">
+            <div class="row my-md-5">
+                <div class="col-md-2" style="size: 10px;">
+                    <label for="name" class="form-label">Patient Name</label>
+                </div>
+                <div class="col-md-5">
+                    <input id="fname" type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-5">
+                    <input id="lname" type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row my-md-5">
+                <div class="col-md-2" style="size: 10px;">
+                    <label for="name5" class="form-label">Sex</label>
+                </div>
+                <div class=".offset-md-3 col-md-7" id="gender">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row my-md-5">
+                <div class="col-md-2" style="size: 10px;">
+                    <label for="DOB1" class="form-label">Date of Birth </label>
+                </div>
+                <div class=".offset-md-3 col-md-7">
+                    <input id=" DOB" type="date" class="form-control" placeholder="mm/dd/yyyy" aria-label="D.O.B">
+                </div>
+            </div>
+            <div class="row my-md-5">
+                <div class="col-md-2" style="size: 10px;">
+                    <label for="Email" class="form-label">Email </label>
+                </div>
+                <div class=".offset-md-3 col-md-7">
+                    <input id="email" type="email" class="form-control" placeholder="11xyz@gmail.com" aria-label="D.O.B">
+                </div>
+            </div>
+            <div class="row my-md-5">
+                <div class="col-md-2" style="size: 10px;">
+                    <label for=" add " class="form-label ">Address</label>
+                </div>
+                <div class=".offset-md-3 col-md-7 ">
+                    <input id="address" type="address " class="form-control " placeholder="Enter Your Address " aria-label="D.O.B ">
+                </div>
+            </div>
+            <div class="row my-md-5 ">
+                <div class="col-md-2 " style="size: 10px; ">
+                    <label for="name6 " class="form-label ">Marital Status</label>
+                </div>
+                <div class=".offset-md-3 col-md-7 ">
+                    <select class="form-select " aria-label="Default select example ">
+                        <option selected id="status ">Please Select</option>
+                        <option value="1 ">Single</option>
+                        <option value="2 ">Married</option>
+                        <option value="2 ">Divorced</option>
+                    </select>
+                </div>
+            </div>
+
+    </div>
+
+
+    <!-- Emergency Contact -->
+    <div class=" container .offset-md-2 col-md-8 my-md-5 text-center bg-light " style=" box-shadow: 10px 10px 10px 10px silver; padding: 2%; ">
+        <h1 style="border-bottom: 1px solid; text-align: left; ">Emergency Contact</h1>
+        <form class="form-check " action=" register " method="post ">
+            <div class="row my-md-5 ">
+                <div class="col-md-2 " style="size: 10px; " id="econ ">
+                    <label for="name 4" class="form-label ">Emergency Contact Name</label>
+                </div>
+                <div class="col-md-5 ">
+                    <input name="efname" type="text " class="form-control " placeholder="First name " aria-label="First name ">
+                </div>
+                <div class="col-md-5 ">
+                    <input id="elname " type="text " class="form-control " placeholder="Last name " aria-label="Last name ">
+                </div>
+            </div>
+            <div class="row my-md-5 ">
+                <div class="col-md-2 " style="size: 10px;>
+                    <label for=" Relationship1 " class="form-label ">Relationship</label>
+                </div>
+                <div class=".offset-md-3 col-md-7 " >
+                    <input id="Relationship " type="text " class="form-control " placeholder="What is your Relationship ? " aria-label="D.O.B ">
+                </div>
+            </div>
+            <div class="row my-md-5 ">
+                <div class="col-md-2 " style="size: 10px; ">
+                    <label for="Contact1 " class="form-label ">Contact</label>
+                </div>
+                <div class=".offset-md-3 col-md-7 " >
+                    <input id="Contact "type="number " class="form-control " placeholder="xx-xxxxx-xxxxx " aria-label="number ">
+                </div>
+            </div>
+            <div class="row my-md-5 ">
+                <div class="col-md-2 " style="size: 10px; ">
+                    <label for="Family-Doctor " class="form-label ">Family Doctor Name</label>
+                </div>
+                <div class="col-md-5 " >
+                    <input type="text " id="fdfname "class="form-control " placeholder="First name " aria-label="First name ">
+                </div>
+                <div class="col-md-5 " >
+                    <input id="fdlname "type="text " class="form-control " placeholder="Last name " aria-label="Last name ">
+                </div>
+            </div>
+            <div class="row my-md-5 ">
+                <div class="col-md-2 " style="size: 10px; ">
+                    <label for="Doctor-Contact " class="form-label ">Family Doctor Contact</label>
+                </div>
+                <div class=".offset-md-3 col-md-7 " >
+                    <input id="dc " "type="number " class="form-control " placeholder="xx-xxxxx-xxxxx " aria-label="number ">
+                    <button type="submit " class="btn btn-primary " style="margin:20px; ">Register</button>
+                </div>
+            </div>
+
+    </div>
+    </form>
+    <!-- Footer -->
+    <div class="footer " style="background: #3D4461; padding-top: 2px; ">
+
+        <div class="container ">
+
+            <div class="footer2 " style="color:#E8F6FF; ">
+                <div class="row ">
+                    <div class="col-sm-4 ">
+                        <h1 style="font-size: 20px; ">Departments</h1>
+                        <p>+ Surgery & Radiology</p>
+                        <p>+ Family Medicine</p>
+                        <p>+ Emergency Ward</p>
+                        <p>+ Optician</p>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h1 style="font-size: 20px; ">Reservation</h1>
+                        <p>+ Tel:956-878-3728</p>
+                        <p>+ Fax:234-345-67890</p>
+                        <p>+ Helper@gmail.com</p>
+                        <p>+ Uttarakhand</p>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h1 style="font-size: 20px; ">New-Letter</h1>
+
+                        <input type="email " placeholder="User Name... " class="newsletter " style="background: #3D4461; color:#E8F6FF "><br>
+
+
+
+                        <p>
+                            <div class="last ">
+                                <a href="NewRegistrattion.html " type="button " class="btn btn-success ">Register</a>
+                            </div>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="last_line ">
+            Copyright ©2023 All rights reserved
+        </div>
+    </div>
+</body>
+
+</html>
